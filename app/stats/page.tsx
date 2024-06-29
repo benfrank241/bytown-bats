@@ -5,7 +5,7 @@ interface StatsProps {
   dataUrl: string;
 }
 
-const StatsWithClientSideProcessing = dynamic<StatsProps>(() => import('../components/Stats'), {
+const StatsWithClientSideProcessing = dynamic<StatsProps>(() => import('../../components/Stats'), {
   ssr: false
 });
 

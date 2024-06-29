@@ -1,0 +1,19 @@
+/* components/NavBar.module.css */
+.navbar {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  .navItem {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .navItem:hover {
+    background-color: #555;
+  }
