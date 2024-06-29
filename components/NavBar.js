@@ -1,6 +1,5 @@
-// components/NavBar.js
 import Link from 'next/link';
-import styles from './NavBar.module.css';  // Assume you have some basic CSS for styling
+import styles from './NavBar.module.css';
 
 const NavBar = () => {
   return (
